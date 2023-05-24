@@ -1,11 +1,11 @@
-a = int(input("Введите значение a: "))
-b = int(input("Введите значение b: "))
+a = int(input())
+b = int(input())
 
 if a == 0:
     if b == 0:
-        print("INF (бесконечное количество корней)")
+        print("INF")
     else:
-        print("No (нет корней)")
+        print("No")
 else:
     x = -b // a  # Используем оператор целочисленного деления //
     print("x =", x)
